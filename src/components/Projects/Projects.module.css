@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Container{
+    padding: 20px 0 20px 0;
+    background-color: #FAFAFA;
+}
+.CardContainer{
+    width: 300px;
+    height: auto;
+    /* border: 2px solid red; */
+    margin: 0 40px 0px 40px;
+    
+}
+.ImageContainer img{
+    width: 180px;
+    height: 180px;
+    text-align: center;
+}
+.InnerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.CardContainer hr{
+    transform: rotate(90deg);
+    opacity: 1;
+    background-color: black;
+}
+.TopHeadingText p{
+    font-family: Lato-Bold;
+    font-size: 36px;
+    margin: 0 0 20px 40px;
+}
+.HeadingContainer p{
+    font-family: Lato-Bold;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+.ParaContainer p{
+    font-family: Lato-Regular;
+    font-size: 18px;
+    
+    margin: 0px 0 10px 0;
+}
+.ButtonContainer button{
+    padding: 10px 50px;
+    background-color: #324FF0;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-family: Lato-Regular;
+    cursor: pointer;
+}

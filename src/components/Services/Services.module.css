@@ -1,0 +1,52 @@
+.Container{
+ background-color: #FAFAFA;
+ padding: 20px 0 20px 0;
+}
+.InnerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 40px 0 40px;
+    flex-wrap: wrap;
+    
+}
+.CardContainer{
+    width: 300px;
+    height:auto;
+    text-align: center;
+    /* border: 2px solid red; */
+
+}
+.ImageContainer img{
+    width: 180px;
+    height: 180;
+    text-align: center;
+    
+}
+.ImageContainer{
+    border: 2px solid var(--black);
+    margin:  0 auto;
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.TopHeadingText{
+    margin: 0 0 10px 40px;
+}
+.TopHeadingText p{
+    font-family: Lato-Bold;
+    font-size: 36px;
+}
+.HeadingContainer p{
+    font-family: Lato-Bold;
+    font-size: 20px;
+}
+.ParaContainer p{
+    font-family: Lato-Regular;
+    font-size: 18px;
+    margin: 5px 0 0 0;
+}

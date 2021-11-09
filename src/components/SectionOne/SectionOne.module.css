@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.RightContainer img{
+    width: 500px;
+    height: 500px;
+}
+.Container{
+   
+   margin: 0 40px 0 40px;
+    
+}
+.LeftTextContainer{
+    width: 30%;
+}
+.LeftTextContainer p{
+    font-family: Lato-Bold;
+    font-size: 48px;
+}
+
+.ContainerOne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    
+}

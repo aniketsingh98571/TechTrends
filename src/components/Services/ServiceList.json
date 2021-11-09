@@ -1,0 +1,20 @@
+[
+    {
+        "Title":"Web Development",
+        "Para":"We build custom tailored web solutions with latest technologies",
+        "Image":"https://res.cloudinary.com/aniket98571/image/upload/v1636447719/web_nmjfwh.svg"
+
+    },
+    {
+        "Title":"App Development",
+        "Para":"We build custom tailored App solutions with latest technologies",
+        "Image":"https://res.cloudinary.com/aniket98571/image/upload/v1636447719/app_bcrpj0.svg"
+
+    },
+    {
+        "Title":"Desktop Application",
+        "Para":"We build custom tailored Desktop App solutions with latest technologies",
+        "Image":"https://res.cloudinary.com/aniket98571/image/upload/v1636447719/desktop_wfbea4.svg"
+
+    }
+]

@@ -1,0 +1,27 @@
+.CardContainer{
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    text-align: center;
+}
+.ImageContainer img{
+    width: 180px;
+    height: auto;
+}
+.InnerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.TopHeadingText p{
+    font-family: Lato-Bold;
+    font-size: 36px;
+}
+.NameContainer p{
+    font-family: Lato-Bold;
+    font-size: 20px;
+}
+.PositionContainer p{
+    font-family: Lato-Regular;
+    font-size: 18px;
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Container{
+    background-color: #F2F3F6;
+    padding: 0 0 20px 0;
+}
+.ImageContainer,.ImageContainerTwo{
+    border: 2px solid var(--black);
+    width: 300px;
+    height: auto;
+}
+.ImageContainer img,.ImageContainerTwo img{
+    height: 100%;
+    width: 100%;
+}
+.FirstContainer,.SecondContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 40px 0 40px;
+    flex-wrap: wrap;
+}
+.TopHeadingText{
+    margin: 0 0 0 40px;
+    padding: 20px 0 0 0;
+    font-family: Lato-Bold;
+    font-size: 36px;
+}
+.Heading p:nth-child(1),.HeadingTwo p:nth-child(1){
+    font-family: Lato-Bold;
+    font-size: 20px;
+}
+.Heading p:nth-child(2),.HeadingTwo p:nth-child(2){
+    font-family: Lato-Regular;
+    font-size: 18px;
+    margin: 5px 0 0 0;
+}
+.HeadingTwo,.Heading{
+    width: 20%;
+}
