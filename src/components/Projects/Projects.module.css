@@ -4,7 +4,7 @@
 }
 .Container{
     padding: 20px 0 20px 0;
-    background-color: #FAFAFA;
+    background-color: #242629;
 }
 .CardContainer{
     width: 300px;
@@ -33,22 +33,24 @@
     font-family: Lato-Bold;
     font-size: 36px;
     margin: 0 0 20px 40px;
+    color: #fffffe;
 }
 .HeadingContainer p{
     font-family: Lato-Bold;
     font-size: 20px;
     margin: 0 0 10px 0;
+    color: #fffffe;
 }
 .ParaContainer p{
     font-family: Lato-Regular;
     font-size: 18px;
-    
+    color: #94a1b2;
     margin: 0px 0 10px 0;
 }
 .ButtonContainer button{
     padding: 10px 50px;
-    background-color: #324FF0;
-    color: #fff;
+    background-color: #7f5af0;
+    color: #fffffe;
     outline: none;
     border: none;
     font-family: Lato-Regular;

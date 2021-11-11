@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.LogoContainer img{
+    width: 80px;
+    height:80px;
+}
+
+.FooterText{
+    text-align: center;
+  color: #94a1b2;
+}
+.InnerContainer{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+    text-align: center;
+    justify-content: space-around;
+   
+}
+.Container{
+    color: #fff;
+    padding: 20px 0;
+    background-color: #16161a;
+}
+.Links{
+    display: flex;
+    justify-content: space-between;
+}
+.Links a{
+    text-decoration: none;
+   
+    color: #fffffe;
+}
+.ContactContainer{
+    font-family: Lato-Bold;
+    color: #fffffe;
+}
+.ListContainer{
+    font-family: Lato-Bold;
+    color: #fffffe;
+}
+.SecondContainer{
+    font-family: Lato-Bold;
+    color: #fffffe;
+}
+.ContactContainer p:nth-child(1){
+    margin: 0 0 5px 0;
+}
+.ListContainer p{
+    margin: 0 0 5px 0;
+    color: #fffffe;
+}
+.Links{
+    margin: 5px 0 0 0;
+}
+.ListContainer a{
+    text-decoration: none;
+}

@@ -1,15 +1,21 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
+
 .RightContainer img{
     width: 500px;
     height: 500px;
+
 }
 .Container{
    
-   margin: 0 40px 0 40px;
+   background-color: #16161a;
     
+}
+.InnerContainer{
+    margin: 0 40px 0 40px;
 }
 .LeftTextContainer{
     width: 30%;
@@ -17,6 +23,7 @@
 .LeftTextContainer p{
     font-family: Lato-Bold;
     font-size: 48px;
+    color: #fffffe;
 }
 
 .ContainerOne{

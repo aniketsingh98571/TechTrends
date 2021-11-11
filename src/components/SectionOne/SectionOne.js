@@ -10,7 +10,7 @@ const SectionOne=()=>{
                     <p>Your Commitment, Our Priority.</p>
                 </div>
                 <div className={classes.RightContainer}>
-                    <img src={team} alt="Hero Image"/>
+                    <img src="https://res.cloudinary.com/aniket98571/image/upload/v1636621109/team_esifr6.svg" alt="Hero Image"/>
                 </div>
                 </div>
  

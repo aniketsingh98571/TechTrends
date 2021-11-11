@@ -3,11 +3,11 @@
     padding: 0;
 }
 .Container{
-    background-color: #F2F3F6;
+    background-color: #242629;
     padding: 0 0 20px 0;
 }
 .ImageContainer,.ImageContainerTwo{
-    border: 2px solid var(--black);
+    border: 2px solid #fffffe;
     width: 300px;
     height: auto;
 }
@@ -27,15 +27,18 @@
     padding: 20px 0 0 0;
     font-family: Lato-Bold;
     font-size: 36px;
+    color: #fffffe;
 }
 .Heading p:nth-child(1),.HeadingTwo p:nth-child(1){
     font-family: Lato-Bold;
     font-size: 20px;
+    color: #fffffe;
 }
 .Heading p:nth-child(2),.HeadingTwo p:nth-child(2){
     font-family: Lato-Regular;
     font-size: 18px;
     margin: 5px 0 0 0;
+    color: #94a1b2;
 }
 .HeadingTwo,.Heading{
     width: 20%;

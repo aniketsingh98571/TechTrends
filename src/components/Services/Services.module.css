@@ -1,5 +1,5 @@
 .Container{
- background-color: #FAFAFA;
+ background-color: #16161a;
  padding: 20px 0 20px 0;
 }
 .InnerContainer{
@@ -24,7 +24,7 @@
     
 }
 .ImageContainer{
-    border: 2px solid var(--black);
+    border: 2px solid #fffffe;
     margin:  0 auto;
     width:250px;
     height: 250px;
@@ -40,13 +40,16 @@
 .TopHeadingText p{
     font-family: Lato-Bold;
     font-size: 36px;
+    color: #fffffe;
 }
 .HeadingContainer p{
     font-family: Lato-Bold;
     font-size: 20px;
+    color: #fffffe;
 }
 .ParaContainer p{
     font-family: Lato-Regular;
     font-size: 18px;
     margin: 5px 0 0 0;
+    color: #94a1b2;
 }

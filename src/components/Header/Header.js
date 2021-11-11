@@ -10,7 +10,7 @@ const Header=()=>{
         <div className={classes.Container}>
                         <div className={classes.NavBar} >
             <div className={classes.ImageContainer}>
-                <img src={logo} alt="Weboasis branding logo"/>
+                <img src="https://res.cloudinary.com/aniket98571/image/upload/v1636621222/logo_denw3g.svg" alt="Weboasis branding logo"/>
             </div>
             <div className={Open ? classes.Show : classes.Hide}>
                 <li><a href="#">ABOUT </a></li>

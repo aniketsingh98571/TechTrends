@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Container{
+    padding: 20px 0 0 0;
+    background-color: #16161a;
+}
+.TopHeadingText p{
+    font-family: Lato-Bold;
+    font-size: 36px;
+    margin: 0px 0 20px 0;
+    color: #fffffe;
+}
+.InnerContainer{
+    width: 70%;
+    margin: 0 auto;
+    /* border: 2px solid green; */
+    text-align: center;
+}
+.InnerContainer label{
+    display: block;
+    
+}
+.InnerContainer label{
+    font-family: Lato-Regular;
+    font-size: 20px;
+   color: #94a1b2;
+}
+.NameContainer label,.EmailContainer label{
+    margin: 0 195px 10px 0;
+    
+}
+.MessageArea label{
+    margin: 0 120px 10px 0;
+    
+}
+.InnerContainer input{
+    padding: 5px 40px;
+    text-align: center;
+    background-color: #16161a;
+    outline: none;
+    border: 2px solid  #fffffe;
+    color:  #fffffe;
+}
+textarea{
+    width: 245px;
+    height: 100px;
+    background-color: #16161a;
+    outline: none;
+    border: 2px solid  #fffffe;
+    color:  #fffffe;
+}
+.NameContainer,.MessageArea,.EmailContainer{
+    margin: 0 0 20px 0;
+}
+.ButtonContainer button{
+    background-color: #7f5af0;
+    color: #fffffe;
+    font-family: Lato-Bold;
+    border: none;
+    outline: none;
+    padding: 8px 40px;
+    margin: 0 0 20px 0;
+    font-size: 18px;
+    cursor: pointer;
+}

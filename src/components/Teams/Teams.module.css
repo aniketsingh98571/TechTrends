@@ -1,8 +1,12 @@
+.Container{
+    background-color: #16161a;
+}
 .CardContainer{
     width: 300px;
     height: auto;
-    border: 2px solid black;
+    border: 2px solid  #fffffe;;
     text-align: center;
+    background-color: #242629;
 }
 .ImageContainer img{
     width: 180px;
@@ -13,15 +17,30 @@
     justify-content: space-between;
     align-items: center;
 }
+.TopHeadingText{
+    margin: 0 0 20px 40px;
+}
 .TopHeadingText p{
     font-family: Lato-Bold;
     font-size: 36px;
+    color: #fffffe;
 }
 .NameContainer p{
     font-family: Lato-Bold;
     font-size: 20px;
+    margin: 0 0 10px 0;
+    color: #fffffe;
 }
 .PositionContainer p{
     font-family: Lato-Regular;
     font-size: 18px;
+    margin: 0 0 10px 0;
+    color: #94a1b2;
+}
+.CardContainer{
+    margin: 0 40px 20px 40px;
+    padding: 5px;
+}
+.SocialContainer img{
+    margin: 0 10px 0 0;
 }

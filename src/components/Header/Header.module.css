@@ -22,7 +22,7 @@
 
 li a{
     text-decoration: none;
-    color: var(--black);
+    color: #fffffe;
 }
  li{
     list-style: none;
@@ -44,9 +44,10 @@ li:last-child{
     background-color:transparent;
     cursor: pointer;
     vertical-align: middle;
+    outline: none;
 }
 .MenuContainer span{
-    color: var(--white);
+    color: #fffffe;
     margin-right: 10px;
     font-size: 18px;
     letter-spacing: 5px;
@@ -69,7 +70,7 @@ li:last-child{
 .Bar1,.Bar2,.Bar3{
     width: 35px;
     height:5px;
-    background-color: var(--black);
+    background-color: #fffffe;
     margin: 6px 0;
     transition: 0.4s;
 }
