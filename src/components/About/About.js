@@ -1,12 +1,12 @@
 import React from "react"
 import classes from './About.module.css'
 import AboutList from  './AboutList.json'
-const About=()=>{
+const About=(props)=>{
     console.log(AboutList)
  return(
-     <div className={classes.Container}>
+     <div id="About_Id" className={classes.Container}>
          <div className={classes.TopHeadingText}>
-             <p>Who are We?</p>
+             <p>{props.MainText}</p>
          </div>
          <div className={classes.ConditionalContainer}>
              {

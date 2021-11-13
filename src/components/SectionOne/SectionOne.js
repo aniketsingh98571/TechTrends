@@ -1,16 +1,15 @@
 import React from "react"
 import classes from './SectionOne.module.css'
-import team from '../../assets/images/team.svg'
-const SectionOne=()=>{
+const SectionOne=(props)=>{
     return(
         <div className={classes.Container}>
             <div className={classes.InnerContainer}>
                 <div className={classes.ContainerOne}>            
                 <div className={classes.LeftTextContainer}>
-                    <p>Your Commitment, Our Priority.</p>
+                    <p>{props.HeroText}</p>
                 </div>
                 <div className={classes.RightContainer}>
-                    <img src="https://res.cloudinary.com/aniket98571/image/upload/v1636621109/team_esifr6.svg" alt="Hero Image"/>
+                    <img src={props.HeroImage} alt="Hero Image"/>
                 </div>
                 </div>
  

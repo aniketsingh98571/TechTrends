@@ -1,11 +1,11 @@
 import React from "react"
 import classes from './Projects.module.css'
 import ProjectList from './ProjectsList.json'
-const Projects=()=>{
+const Projects=(props)=>{
     return(
-        <div className={classes.Container}>
+        <div id="Projects_Id" className={classes.Container}>
             <div className={classes.TopHeadingText}>
-                <p>Projects</p>
+                <p>{props.MainText}</p>
             </div>
             <div className={classes.InnerContainer}>
                 {

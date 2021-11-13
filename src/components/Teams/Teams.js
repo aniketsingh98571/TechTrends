@@ -4,11 +4,11 @@ import TeamList from './TeamList.json'
 import Instagram from '../../assets/images/insta.svg'
 import Facebook from '../../assets/images/fb.svg'
 import Twitter from '../../assets/images/twitter.svg'
-const Teams=()=>{
+const Teams=(props)=>{
     return(
-        <div className={classes.Container}>
+        <div id="Teams_Id" className={classes.Container}>
             <div className={classes.TopHeadingText}>
-                <p>Team</p>
+                <p>{props.MainText}</p>
             </div>
             <div className={classes.InnerContainer}>
                 {

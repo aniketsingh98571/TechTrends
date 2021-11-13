@@ -1,7 +1,7 @@
 import React,{useState} from "react"
-import logo from '../../assets/images/logo.svg'
 import classes from './Header.module.css'
-const Header=()=>{
+import { Link } from "react-scroll";
+const Header=(props)=>{
     const [Open,IsOpen]=useState(false)
      function ChangeState(){
         IsOpen(!Open);
@@ -10,14 +10,56 @@ const Header=()=>{
         <div className={classes.Container}>
                         <div className={classes.NavBar} >
             <div className={classes.ImageContainer}>
-                <img src="https://res.cloudinary.com/aniket98571/image/upload/v1636621222/logo_denw3g.svg" alt="Weboasis branding logo"/>
+                <img src={props.LogoImage} alt="branding logo"/>
             </div>
             <div className={Open ? classes.Show : classes.Hide}>
-                <li><a href="#">ABOUT </a></li>
-                <li><a href="#">SERVICES </a></li>
-                <li><a href="#">PROJECTS </a></li>
-                <li><a href="#">TEAM </a></li>
-                <li><a href="#">CONTACT </a></li>
+            <Link
+                         to="About_Id"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1000}
+                    >
+                    <li>{props.Link1}</li>
+                    </Link>
+                    <Link
+                        activeClass={classes.Active}
+                        to="Services_Id"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1000}
+                    >
+                        <li>{props.Link2} </li>
+                        </Link>
+                        <Link
+                        activeClass={classes.Active}
+                        to="Projects_Id"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1000}
+                    >
+                        <li>{props.Link3}</li>
+                        </Link>
+                        <Link
+                        activeClass={classes.Active}
+                        to="Teams_Id"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1000}
+                    > 
+                    <li>{props.Link4} </li>
+                    </Link>
+                    <Link
+                        activeClass={classes.Active}
+                        to="Contact_Id"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1000}
+                    > <li>{props.Link5} </li></Link>
           </div>
             <div className={classes.MenuContainer} onClick={ChangeState}>
                 { Open ? null : <span>EXPAND</span> }

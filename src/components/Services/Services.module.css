@@ -1,5 +1,5 @@
 .Container{
- background-color: #16161a;
+ background-color: var(--servicebackground);
  padding: 20px 0 20px 0;
 }
 .InnerContainer{
@@ -24,7 +24,7 @@
     
 }
 .ImageContainer{
-    border: 2px solid #fffffe;
+    border: 2px solid var(--headlines);
     margin:  0 auto;
     width:250px;
     height: 250px;
@@ -40,16 +40,40 @@
 .TopHeadingText p{
     font-family: Lato-Bold;
     font-size: 36px;
-    color: #fffffe;
+    color: var(--headlines);
 }
 .HeadingContainer p{
     font-family: Lato-Bold;
     font-size: 20px;
-    color: #fffffe;
+    color: var(--headlines);
 }
 .ParaContainer p{
     font-family: Lato-Regular;
     font-size: 18px;
     margin: 5px 0 0 0;
-    color: #94a1b2;
+    color: var(--subheadline);
+}
+@media(max-width:1000px){
+    .CardContainer{
+        width: 300px;
+        height:auto;
+        text-align: center;
+        /* border: 2px solid red; */
+    margin: 0 0 20px 0;
+    }
+}
+@media(max-width:890px){
+    .HeadingContainer p{
+        margin: 10px 0 0 0;
+    }
+    .TopHeadingText{
+        text-align: center;
+        margin: 0 0 10px 0;   }
+    .InnerContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       flex-direction: column;
+        
+    }
 }

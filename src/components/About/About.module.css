@@ -3,11 +3,11 @@
     padding: 0;
 }
 .Container{
-    background-color: #242629;
+    background-color: var(--aboutbackground);
     padding: 0 0 20px 0;
 }
 .ImageContainer,.ImageContainerTwo{
-    border: 2px solid #fffffe;
+    border: 2px solid var(--headlines);
     width: 300px;
     height: auto;
 }
@@ -27,19 +27,46 @@
     padding: 20px 0 0 0;
     font-family: Lato-Bold;
     font-size: 36px;
-    color: #fffffe;
+    color: var(--headlines);
 }
 .Heading p:nth-child(1),.HeadingTwo p:nth-child(1){
     font-family: Lato-Bold;
     font-size: 20px;
-    color: #fffffe;
+    color: var(--headlines);
 }
 .Heading p:nth-child(2),.HeadingTwo p:nth-child(2){
     font-family: Lato-Regular;
     font-size: 18px;
     margin: 5px 0 0 0;
-    color: #94a1b2;
+    color: var(--subheadline);
 }
 .HeadingTwo,.Heading{
     width: 20%;
+}
+@media(max-width:900px){
+    .HeadingTwo,.Heading{
+        width: 40%;
+    }
+}
+@media(max-width:650px){
+    .TopHeadingText{
+       text-align: center;
+    }
+    .FirstContainer,.SecondContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .HeadingTwo,.Heading{
+        width: 100%;
+    }
+    .Heading p:nth-child(1),.HeadingTwo p:nth-child(1){
+        margin: 10px 0 20px 0;
+        text-align: center;
+    }
+    .Heading p:nth-child(2),.HeadingTwo p:nth-child(2){
+        margin: 10px 0 20px 0;
+        text-align: center;
+    }
 }

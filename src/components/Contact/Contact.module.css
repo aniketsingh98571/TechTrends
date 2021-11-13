@@ -4,13 +4,13 @@
 }
 .Container{
     padding: 20px 0 0 0;
-    background-color: #16161a;
+    background-color: var(--servicebackground);
 }
 .TopHeadingText p{
     font-family: Lato-Bold;
     font-size: 36px;
     margin: 0px 0 20px 0;
-    color: #fffffe;
+    color: var(--headlines);
 }
 .InnerContainer{
     width: 70%;
@@ -25,7 +25,7 @@
 .InnerContainer label{
     font-family: Lato-Regular;
     font-size: 20px;
-   color: #94a1b2;
+   color: var(--subheadline);
 }
 .NameContainer label,.EmailContainer label{
     margin: 0 195px 10px 0;
@@ -40,23 +40,23 @@
     text-align: center;
     background-color: #16161a;
     outline: none;
-    border: 2px solid  #fffffe;
-    color:  #fffffe;
+    border: 2px solid  var(--headlines);
+    color:  var(--headlines);
 }
 textarea{
     width: 245px;
     height: 100px;
     background-color: #16161a;
     outline: none;
-    border: 2px solid  #fffffe;
-    color:  #fffffe;
+    border: 2px solid var(--headlines);
+    color:  var(--headlines);
 }
 .NameContainer,.MessageArea,.EmailContainer{
     margin: 0 0 20px 0;
 }
 .ButtonContainer button{
-    background-color: #7f5af0;
-    color: #fffffe;
+    background-color: var(--buttonbackground);
+    color: var(--headlines);
     font-family: Lato-Bold;
     border: none;
     outline: none;

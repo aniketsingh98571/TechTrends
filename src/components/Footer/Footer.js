@@ -1,16 +1,15 @@
 import React from "react"
 import classes from './Footer.module.css'
-import logo from '../../assets/images/logo.svg'
-const Footer=()=>{
+const Footer=(props)=>{
     return(
         <div className={classes.Container}>
             <div className={classes.InnerContainer}>
                 <div className={classes.LogoContainer}>
-                    <img src="https://res.cloudinary.com/aniket98571/image/upload/v1636621222/logo_denw3g.svg"/>
+                    <img src={props.FooterLogo}/>
                 </div>
                 <div className={classes.ContactContainer}>
                     <p>Contact</p>
-                    <p>thor98571@gmail.com</p>
+                    <p>{props.FooterContents.Contact_Email}</p>
                 </div>
                 <div className={classes.ListContainer}>
                     <a href="#"><p>Home</p></a>
@@ -19,11 +18,11 @@ const Footer=()=>{
                 </div>
                 <div className={classes.SecondContainer}>
                     <div className={classes.SecondText}>
-                        <p>We Strive for better future</p>
+                        <p>{props.FooterContents.SubHeadingText}</p>
                     </div>
                     <div className={classes.Links}>
-                        <a href="#"><p>Linkedin</p></a>
-                        <a href="#"><p>Facebook</p></a>
+                        <a href={props.FooterContents.SocialMedia.Link1}><p>{props.FooterContents.SocialMedia.Text1}</p></a>
+                        <a href={props.FooterContents.SocialMedia.Link2}><p>{props.FooterContents.SocialMedia.Text2}</p></a>
                     </div>
                 </div>
             </div>

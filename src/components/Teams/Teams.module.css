@@ -1,12 +1,12 @@
 .Container{
-    background-color: #16161a;
+    background-color: var(--servicebackground);
 }
 .CardContainer{
     width: 300px;
     height: auto;
-    border: 2px solid  #fffffe;;
+    border: 2px solid  var(--headlines);
     text-align: center;
-    background-color: #242629;
+    background-color: var(--aboutbackground);
 }
 .ImageContainer img{
     width: 180px;
@@ -16,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .TopHeadingText{
     margin: 0 0 20px 40px;
@@ -23,19 +24,19 @@
 .TopHeadingText p{
     font-family: Lato-Bold;
     font-size: 36px;
-    color: #fffffe;
+    color: var(--headlines);
 }
 .NameContainer p{
     font-family: Lato-Bold;
     font-size: 20px;
     margin: 0 0 10px 0;
-    color: #fffffe;
+    color: var(--headlines);
 }
 .PositionContainer p{
     font-family: Lato-Regular;
     font-size: 18px;
     margin: 0 0 10px 0;
-    color: #94a1b2;
+    color: var(--subheadline);
 }
 .CardContainer{
     margin: 0 40px 20px 40px;
@@ -43,4 +44,35 @@
 }
 .SocialContainer img{
     margin: 0 10px 0 0;
+}
+@media(max-width:786px){
+    .InnerContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .TopHeadingText p{
+        margin: 0 0 0px 0;
+       text-align: center;
+    }
+    .TopHeadingText{
+        margin: 0 0 20px 0px;
+    }
+    .CardContainer{
+        width: 400px;
+        height: auto;
+        border: 2px solid  var(--headlines);
+        text-align: center;
+        background-color: var(--aboutbackground);
+    }
+}
+@media(max-width:450px) {
+    .CardContainer{
+        width: 200px;
+        height: auto;
+        border: 2px solid  #fffffe;;
+        text-align: center;
+        background-color: #242629;
+    }
 }

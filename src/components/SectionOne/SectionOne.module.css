@@ -11,7 +11,7 @@
 }
 .Container{
    
-   background-color: #16161a;
+   background-color: var(--servicebackground);
     
 }
 .InnerContainer{
@@ -23,7 +23,7 @@
 .LeftTextContainer p{
     font-family: Lato-Bold;
     font-size: 48px;
-    color: #fffffe;
+    color: var(--headlines);
 }
 
 .ContainerOne{
@@ -33,4 +33,62 @@
     height: 100vh;
     flex-wrap: wrap;
     
+}
+@media(max-width:990px){
+    .LeftTextContainer{
+        width: 40%;
+    }
+}
+@media(max-width:920px){
+    .LeftTextContainer{
+        width: 100%;
+        text-align: center;
+    }
+    .ContainerOne{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+       padding: 60px 0 0 0;
+    }
+
+}
+@media(max-width:500px){
+    .RightContainer img{
+        width: 100%;
+        height: 500px;
+    
+    }
+    .LeftTextContainer{
+        width: 100%;
+        text-align: center;
+    }
+    .ContainerOne{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+       padding: 60px 0 0 0;
+    }
+}
+@media(max-width:400px){
+    .RightContainer img{
+        width: 100%;
+        height: 500px;
+    
+    }
+    .LeftTextContainer{
+        width: 100%;
+        text-align: center;
+    }
+    .ContainerOne{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: row;
+       padding: 100px 0 0 0;
+    }
 }

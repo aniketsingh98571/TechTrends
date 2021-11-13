@@ -1,7 +1,6 @@
 import React, { useReducer, useState } from "react"
 import classes from './Contact.module.css'
-import Popup from "../popups/Popup"
-const Contact=()=>{
+const Contact=(props)=>{
    
     const [data,setdata]=useState({
         name:"",
@@ -21,11 +20,11 @@ const Contact=()=>{
     }
       const PostData= async(e)=>{
             e.preventDefault();
-            const env=process.env.REACT_APP_API_URL;
+            const url=process.env.REACT_APP_API_URL;
            
             const {name,email,message}=data
             if(name&&email&&message){
-                const rest= await fetch(env,{
+                const rest= await fetch(url,{
                 method:"POST",
                 headers:{
                     "Content-Type":"application/json",
@@ -55,10 +54,10 @@ const Contact=()=>{
       
     
     return(
-        <div className={classes.Container}>
+        <div id="Contact_Id" className={classes.Container}>
             <div className={classes.InnerContainer}>
                 <div className={classes.TopHeadingText}>
-                    <p>Contact</p>
+                    <p>{props.MainText}</p>
                 </div>
                 <div className={classes.FormContainer} >
                     <div className={classes.NameContainer}>

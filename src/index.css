@@ -12,5 +12,9 @@
 }
 
 :root{
- --black:#000;
+ --headlines:#fffffe;  /*For HeroText, NavBar Text and Top Heading of Each Section and some ALL CAPS Words,card headings*/
+ --subheadline:#94a1b2;/* For paragraphs, subheadlines and cards paragraph*/
+ --servicebackground:#16161a;/* Also for team background and Contact Background*/
+ --aboutbackground:#242629;  /*Also for project background and teams card background*/
+ --buttonbackground:#7f5af0;
 }

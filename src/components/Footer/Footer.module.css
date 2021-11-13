@@ -19,6 +19,7 @@
     
     text-align: center;
     justify-content: space-around;
+    flex-wrap: wrap;
    
 }
 .Container{
@@ -29,34 +30,48 @@
 .Links{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .Links a{
     text-decoration: none;
    
-    color: #fffffe;
+    color: var(--headlines);
 }
 .ContactContainer{
     font-family: Lato-Bold;
-    color: #fffffe;
+    color: var(--headlines);
 }
 .ListContainer{
     font-family: Lato-Bold;
-    color: #fffffe;
+    color: var(--headlines);
 }
 .SecondContainer{
     font-family: Lato-Bold;
-    color: #fffffe;
+    color: var(--headlines);
 }
 .ContactContainer p:nth-child(1){
     margin: 0 0 5px 0;
 }
 .ListContainer p{
     margin: 0 0 5px 0;
-    color: #fffffe;
+    color: var(--headlines);
 }
 .Links{
     margin: 5px 0 0 0;
 }
 .ListContainer a{
     text-decoration: none;
+}
+@media(max-width:830px){
+    .InnerContainer{
+        width: 100%;
+        
+        display: flex;
+        align-items: center;
+        
+        text-align: center;
+        justify-content: space-around;
+        
+       
+    }
 }
