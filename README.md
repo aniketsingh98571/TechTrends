@@ -149,5 +149,7 @@ You can prefer any hosting provider of your choice.
 ]
 
  ```
- 
+ ### Note:-
+ 1. The Design is not upto mark, so if you are good at UX/UI, feel free to contribute.
+ 2.  For images please use CDN.
  
